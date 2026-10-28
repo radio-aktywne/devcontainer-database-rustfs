@@ -2,11 +2,11 @@
 _commit: 0.13.0
 _src_path: gh:radio-aktywne/template-devcontainer
 accountname: radio-aktywne
-description: Devcontainer for MinIO databases 🦩
-devcontainername: database-minio
+description: Devcontainer for RustFS databases 🦀
+devcontainername: database-rustfs
 docs: false
-imagename: devcontainers/database-minio
+imagename: devcontainers/database-rustfs
 registry: true
 releases: true
-reponame: devcontainer-database-minio
-repourl: https://github.com/radio-aktywne/devcontainer-database-minio
+reponame: devcontainer-database-rustfs
+repourl: https://github.com/radio-aktywne/devcontainer-database-rustfs
