@@ -67,9 +67,9 @@ jobs:
           build
           --
           --image-name
-          'ghcr.io/radio-aktywne/devcontainers/database-minio:latest'
+          'ghcr.io/radio-aktywne/devcontainers/database-rustfs:latest'
           --image-name
-          'ghcr.io/radio-aktywne/devcontainers/database-minio:${{ github.event.release.tag_name }}'
+          'ghcr.io/radio-aktywne/devcontainers/database-rustfs:${{ github.event.release.tag_name }}'
           --cache-from
           'type=gha,scope=${{ github.workflow }}'
           --cache-to
